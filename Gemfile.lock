@@ -1,0 +1,10 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    notify (0.5.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  notify
