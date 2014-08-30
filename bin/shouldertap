@@ -1,8 +1,6 @@
 #!/usr/bin/env ruby
 $:.unshift File.expand_path(File.dirname(__FILE__) + '/../lib')
 
-require 'shouldertap/testsuite'
-require 'shouldertap/notification'
+require 'shouldertap/cli'
 
-testsuite = ShoulderTap::Testsuite.new ARGF.read
-ShoulderTap::Notification.new(testsuite).send
+ShoulderTap::CLI.new(ARGV, $stdin).run

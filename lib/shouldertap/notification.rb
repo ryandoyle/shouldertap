@@ -5,10 +5,11 @@ module ShoulderTap
 
     SUCCESS_ICON = "dialog-information.png"
     FAILURE_ICON = "dialog-error.png"
+    DEFAULT_SENDER = 'ShoulderTap'
 
-    def initialize(testsuite, sender = 'ShoulderTap')
+    def initialize(testsuite, sender = nil)
       @testsuite = testsuite
-      @sender = sender
+      @sender = sender.nil? ? DEFAULT_SENDER : sender
     end
 
     def send
