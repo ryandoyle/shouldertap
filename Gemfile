@@ -1,7 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'notify'
-
-group :test do
-  gem 'rspec'
-end
+# Specify your gem's dependencies in shouldertap.gemspec
+gemspec
