@@ -1,4 +1,4 @@
-ShoulderTap gives desktop notifications from the output of TAP (Test Anything Protocol)
+ShoulderTap gives desktop notifications from the output of [TAP](http://testanything.org/) (Test Anything Protocol)
 
 ## Example
 
