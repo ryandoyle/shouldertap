@@ -1,6 +1,6 @@
 ShoulderTap gives desktop notifications from the output of TAP (Test Anything Protocol)
 
-== Example
+## Example
 
 Using [Bats](https://github.com/sstephenson/bats) as a TAP Producer, we pipe its output into ShoulderTap
 
@@ -22,7 +22,7 @@ ShoulderTap also supports changing the name of the notification with the `-n` sw
 
 There are a bunch of other producers available at the [Test Anything website](http://testanything.org/producers.html)
 
-== Advanced Usage
+## Advanced Usage
 
 With some simple shell scripting, we can run tests every time we save changes to our code. Here we are using [Bacon](https://github.com/chneukirchen/bacon) as our test harness.
 
@@ -31,15 +31,15 @@ With some simple shell scripting, we can run tests every time we save changes to
     bacon --tap tests/* | shouldertap
   done
 
-== Installation
+## Installation
 
   gem install shouldertap 
 
-== Contributing
+## Contributing
 
 Please fork and issue a pull request.
 
-== License
+## License
 
 Copyright (c) 2014 Ryan Doyle
 
